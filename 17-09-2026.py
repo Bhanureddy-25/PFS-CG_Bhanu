@@ -47,6 +47,31 @@ elif Number > 0 and Number % 2 == 0:
 else:
     print("Odd Number")
 
+#Season Identifier
+Month = int(input("Enter month number: "))
+if Month < 1 or Month > 12:
+    print("Invalid Month Entered")
+elif Month == 1 or Month == 2 or Month == 12:
+    print("Season: Winter")
+elif Month == 3 or Month == 4 or Month == 5:
+    print("Season: Spring")
+elif Month == 6 or Month == 7 or Month == 8:
+    print("Season: Summer")
+else:
+    print("Season: Autumn")
+
+
+
+
+
+
+
+
+
+
+
+    
+
     
 
 
